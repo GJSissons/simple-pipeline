@@ -22,19 +22,24 @@
                 },
                 "reads": {
                     "type": "string",
-                    "default": "None"
+                    "default": "None",
+                    "description": "Path to the input FASTQ files",
+                    "help_text": "You can specify multiple FASTQ files as inputs to the pipeline. Use this parameter to specify their location.",
+                    "fa_icon": "fas fa-chevron-right"
                 },
                 "transcriptome_file": {
                     "type": "string",
                     "default": "None",
-                    "description": "Transcriptome file"
+                    "description": "Transcriptome file",
+                    "fa_icon": "far fa-sticky-note"
                 },
                 "multiqc": {
                     "type": "string",
                     "default": "None",
                     "description": "MultiQC file"
                 }
-            }
+            },
+            "help_text": ""
         }
     },
     "allOf": [
