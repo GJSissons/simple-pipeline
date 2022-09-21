@@ -1,0 +1,1 @@
+2022-09-20 14:15:58	14.3s	prickly_ardinghelli	OK	93b91a657ffea64d4a335448f46aa179	8cedf01b-c1d4-4e1b-ba4d-57f1b2373132	nextflow run main.nf -with-docker
