@@ -22,10 +22,10 @@
                 },
                 "reads": {
                     "type": "string",
-                    "description": "Path to the input FASTQ files",
+                    "description": "Path to comma-separated file containing information about the samples in the experiment.",
                     "help_text": "You can specify multiple FASTQ files as inputs to the pipeline. Use this parameter to specify their location.",
                     "fa_icon": "fas fa-chevron-right",
-                    "pattern": "^\\\\S+\\\\.csv$",
+                    "pattern": "^\\S+\\.csv$",
                     "format": "file-path",
                     "mimetype": "text/csv"
                 },
